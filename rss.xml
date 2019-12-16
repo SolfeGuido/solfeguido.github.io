@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>SolfeGuido</title>
+        <link>https://solfeguido.github.io/</link>
+        <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
+        <generator>Hugo 0.61.0 https://gohugo.io/</generator>
+        
+            <language>en-US</language>
+        
+        
+            <managingEditor>azarias.boutin@gmail.com (AzariasB)</managingEditor>
+        
+        
+            <webMaster>azarias.boutin@gmail.com (AzariasB)</webMaster>
+        
+        
+            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+        
+        <lastBuildDate>Mon, 16 Dec 2019 15:53:49 +0100</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss+xml" href="https://solfeguido.github.io/rss.xml" />
+        
+        
+            <item>
+                <title>SolfeGuido</title>
+                <link>https://solfeguido.github.io/posts/solfeguido/</link>
+                <guid isPermaLink="true">https://solfeguido.github.io/posts/solfeguido/</guid>
+                <pubDate>Mon, 16 Dec 2019 15:32:43 +0100</pubDate>
+                
+                    <author>azarias.boutin@gmail.com (AzariasB)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description><![CDATA[
+
+<h1 id="solfeguido">SolfeGuido</h1>
+
+<p>Learn to read a music sheet the fun way !</p>
+
+<p>SolfeGuido was created as a mobile game.
+It works on computer, but is more enjoyable on a phone or tablet.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+<li><p>Train to read on three keys :</p>
+
+<ul>
+<li>G key</li>
+<li>F key</li>
+<li>F &amp; G keys</li>
+</ul></li>
+
+<li><p>Many stats are available (and more to come) :</p>
+
+<ul>
+<li>Number of games played</li>
+<li>Number of points won</li>
+<li>Average reaction time</li>
+<li>Wrong notes guessed</li>
+<li>Longest play streak</li>
+<li>Total time played</li>
+</ul></li>
+</ul>
+
+<h2 id="example">Example</h2>
+
+<p><img src="play.gif" alt="InGame" /></p>
+
+<h1 id="source-code">Source code</h1>
+
+<p>SolfeGuido is open-source, the code is available at <a href="https://github.com/SolfeGuido/SolfeGuido" target="_blank">https://github.com/SolfeGuido/SolfeGuido</a></p>
+]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+    </channel>
+</rss>
