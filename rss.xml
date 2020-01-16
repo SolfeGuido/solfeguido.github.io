@@ -10,7 +10,7 @@
         <title>SolfeGuido</title>
         <link>https://solfeguido.github.io/</link>
         <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
-        <generator>Hugo 0.61.0 https://gohugo.io/</generator>
+        <generator>Hugo 0.62.2 https://gohugo.io/</generator>
         
             <language>en-US</language>
         
@@ -23,10 +23,55 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Wed, 18 Dec 2019 14:04:16 +0100</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jan 2020 19:27:01 +0100</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://solfeguido.github.io/rss.xml" />
         
+        
+            <item>
+                <title>Update 1.14</title>
+                <link>https://solfeguido.github.io/posts/update/</link>
+                <guid isPermaLink="true">https://solfeguido.github.io/posts/update/</guid>
+                <pubDate>Thu, 16 Jan 2020 19:21:57 +0100</pubDate>
+                
+                    <author>azarias.boutin@gmail.com (AzariasB)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description><![CDATA[
+
+<h1 id="1-14-the-performance-version">1.14 : The Performance version</h1>
+
+<p>A new version has been released !</p>
+
+<p>This released is aimed toward performance improvements, some small things have been added as well, but not much.</p>
+
+<ul>
+<li>Saving the statistcs right after a game is finished to avoid loosing data</li>
+<li>The notes fade in and fade-out</li>
+<li>When giving a wrong answer, the note become a &ldquo;ghost note&rdquo;</li>
+<li>Some very special effects at the end of a game</li>
+<li>Added ut3 and ut4 keys</li>
+<li>Improved performance for buttons</li>
+<li>Improved rendering performance of various objects</li>
+<li>The loading at the start is now longer to load all the notes</li>
+<li>Jingles have been added (but are not really cool for now)</li>
+</ul>
+
+<p>Enjoy !</p>
+]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Released</title>
