@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
     <title type="text">SolfeGuido</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2020-01-16T19:27:01+01:00</updated>
+    <updated>2020-02-03T09:31:48+01:00</updated>
     <id>https://solfeguido.github.io/</id>
     <link rel="alternate" type="text/html" href="https://solfeguido.github.io/" />
     <link rel="self" type="application/atom+xml" href="https://solfeguido.github.io/atom.xml" />
@@ -15,25 +15,69 @@
                 <email>azarias.boutin@gmail.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
-    <generator uri="https://gohugo.io/" version="0.62.2">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.63.2">Hugo</generator>
         <entry>
-            <title type="text">Update 1.14</title>
-            <link rel="alternate" type="text/html" href="https://solfeguido.github.io/posts/update/" />
-            <id>https://solfeguido.github.io/posts/update/</id>
-            <updated>2020-01-16T19:26:45+01:00</updated>
+            <title type="text">Update 1.4</title>
+            <link rel="alternate" type="text/html" href="https://solfeguido.github.io/posts/update_1_4/" />
+            <id>https://solfeguido.github.io/posts/update_1_4/</id>
+            <updated>2020-02-03T09:28:37+01:00</updated>
+            <published>2020-02-03T09:25:13+01:00</published>
+            <author>
+                    <name>AzariasB</name>
+                    <uri>https://solfeguido.github.io/</uri>
+                    <email>azarias.boutin@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html"><![CDATA[1.4 : The Swedish Release A new version has been released !
+This version fixes some rendering issues, improves some performances, and add new features, such as :
+ The Swedish language A pop-up to notify when a new version is installed, what are the new features A step-by-step guide when first starting the game to configure it to fit the needs of the user  You can get this release on github.]]></summary>
+            
+                <content type="html"><![CDATA[
+
+<h1 id="1-4-the-swedish-release">1.4 : The Swedish Release</h1>
+
+<p>A new version has been released !</p>
+
+<p>This version fixes some rendering issues, improves some performances, and add new features, such as :</p>
+
+<ul>
+<li>The Swedish language</li>
+<li>A pop-up to notify when a new version is installed, what are the new features</li>
+<li>A step-by-step guide when first starting the game to configure it to fit the needs of the user</li>
+</ul>
+
+<p>You can get this release on <a href="https://github.com/SolfeGuido/SolfeGuido/releases" target="_blank">github</a>.</p>
+]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Update 1.3</title>
+            <link rel="alternate" type="text/html" href="https://solfeguido.github.io/posts/update_1_3/" />
+            <id>https://solfeguido.github.io/posts/update_1_3/</id>
+            <updated>2020-02-03T09:27:16+01:00</updated>
             <published>2020-01-16T19:21:57+01:00</published>
             <author>
                     <name>AzariasB</name>
                     <uri>https://solfeguido.github.io/</uri>
                     <email>azarias.boutin@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html"><![CDATA[1.14 : The Performance version A new version has been released !
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html"><![CDATA[1.3 : The Performance version A new version has been released !
 This released is aimed toward performance improvements, some small things have been added as well, but not much.
  Saving the statistcs right after a game is finished to avoid loosing data The notes fade in and fade-out When giving a wrong answer, the note become a “ghost note” Some very special effects at the end of a game Added ut3 and ut4 keys Improved performance for buttons Improved rendering performance of various objects The loading at the start is now longer to load all the notes Jingles have been added (but are not really cool for now)  Enjoy !]]></summary>
             
                 <content type="html"><![CDATA[
 
-<h1 id="1-14-the-performance-version">1.14 : The Performance version</h1>
+<h1 id="1-3-the-performance-version">1.3 : The Performance version</h1>
 
 <p>A new version has been released !</p>
 
