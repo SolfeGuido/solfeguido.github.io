@@ -10,7 +10,7 @@
         <title>SolfeGuido</title>
         <link>https://solfeguido.github.io/</link>
         <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
-        <generator>Hugo 0.63.2 https://gohugo.io/</generator>
+        <generator>Hugo 0.64.0 https://gohugo.io/</generator>
         
             <language>en-US</language>
         
@@ -23,10 +23,50 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Mon, 03 Feb 2020 09:31:48 +0100</lastBuildDate>
+        <lastBuildDate>Wed, 05 Feb 2020 13:10:37 +0100</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://solfeguido.github.io/rss.xml" />
         
+        
+            <item>
+                <title>SolfeGuido&#39;s rewrite</title>
+                <link>https://solfeguido.github.io/posts/rewrite/</link>
+                <guid isPermaLink="true">https://solfeguido.github.io/posts/rewrite/</guid>
+                <pubDate>Wed, 05 Feb 2020 12:59:03 +0100</pubDate>
+                
+                    <author>azarias.boutin@gmail.com (AzariasB)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description><![CDATA[<p>After the 1.4 release, I&rsquo;m quite happy with the state of SolfeGuido.
+Of course, a lot of features I want to implement are missing. I still want to add a lot of other gamemodes, if possible also add new translations, new options and so on &hellip;
+However, I encountered several limitations of love2d (the current game engine used for SolfeGuido) :</p>
+
+<ul>
+<li>The package size for a basic hello world is more than 3 MBytes. For game as small as SolfeGuido, that&rsquo;s twice the size of the assets !</li>
+<li>Love2D/Lua is not really good at detecting the phone&rsquo;s locale. One could ask the user, but I&rsquo;d rather have it selected by default, and let the user change it later on</li>
+<li>There is no HTTPS module in Löve2d, it seems like it&rsquo;s going to be added in a future version, but other game engine already have this feature</li>
+<li>Because it&rsquo;s based on a scripting language (which is also a strength) it&rsquo;s quite easy to make a mistake and only realize this way later (or even too late), a compiled (or even transpiled) language could help reduce the risk of error</li>
+<li>When the game crashes, a lovely screen can be shown on android, but this does not report anything to the play store, and it&rsquo;s then quite impossible to know if any crashes happened</li>
+<li>Also, (but this is more my fault), the widget system is not very well coded, and could use a complete rewrite.</li>
+</ul>
+
+<p>So I&rsquo;m now pausing the development of SolfeGuido, while searching for a new game engine that meet all the required criterias !</p>
+
+<p>Onward to SolfeGuido 2.0 !!</p>
+]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Update 1.4</title>
