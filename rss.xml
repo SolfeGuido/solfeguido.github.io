@@ -10,7 +10,7 @@
         <title>SolfeGuido</title>
         <link>https://solfeguido.github.io/</link>
         <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
-        <generator>Hugo 0.64.0 https://gohugo.io/</generator>
+        <generator>Hugo 0.67.0 https://gohugo.io/</generator>
         
             <language>en-US</language>
         
@@ -23,10 +23,60 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Wed, 05 Feb 2020 13:10:37 +0100</lastBuildDate>
+        <lastBuildDate>Thu, 12 Mar 2020 16:13:04 +0100</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://solfeguido.github.io/rss.xml" />
         
+        
+            <item>
+                <title>Kotlin for the win</title>
+                <link>https://solfeguido.github.io/posts/kotlinftw/</link>
+                <guid isPermaLink="true">https://solfeguido.github.io/posts/kotlinftw/</guid>
+                <pubDate>Thu, 12 Mar 2020 15:52:22 +0100</pubDate>
+                
+                    <author>azarias.boutin@gmail.com (AzariasB)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description><![CDATA[<p>The flaws found in löve2d were <a href="https://solfeguido.github.io/posts/rewrite/" target="_blank">the following</a>:</p>
+
+<ul>
+<li>Big package size (3MB of native libs)</li>
+<li>Lack of locale detection</li>
+<li>Lack of HTTPS support</li>
+<li>Lack of strong typing in lua</li>
+<li>Does not seem to crash correctly on android</li>
+<li>All the UI must be created from scratch</li>
+</ul>
+
+<p>After a little bit of research and testing, I finally decided to rewrite SolfeGuido using <a href="https://libgdx.badlogicgames.com/" target="_blank">LigGdx</a> with Kotlin as the programming language.
+Let&rsquo;s see point by point how this frameworks solves every flaws of löve2D:</p>
+
+<ul>
+<li>The empty android .adb is only 1MB, which is 3 times less than löve2D (and I don&rsquo;t care about the build size for desktop)</li>
+<li>Good support for i18n and an <a href="https://github.com/libgdx/libgdx/wiki/Internationalization-and-Localization" target="_blank">out of the box translation system</a></li>
+<li>Https support thanks to the JRE</li>
+<li>Really good typings, non-nullable types and more in Kotlin</li>
+<li>Crash is reported on the google play</li>
+<li>A really powerfull widget bundle that comes with animation support, styling, &hellip;</li>
+</ul>
+
+<p>Because of all these existing features, it takes time to learn how to use them properly, but when you know how to use them, you can work quite fast on the app.</p>
+
+<p>Hopefully, this will be a good choice for the future, we&rsquo;ll see how it goes !</p>
+]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>SolfeGuido&#39;s rewrite</title>
