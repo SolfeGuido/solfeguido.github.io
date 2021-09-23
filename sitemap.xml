@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://solfeguido.github.io/posts/released2/</loc>
+    <lastmod>2021-09-23T18:56:24+02:00</lastmod>
+  </url><url>
+    <loc>https://solfeguido.github.io/posts/</loc>
+    <lastmod>2021-09-23T18:56:24+02:00</lastmod>
+  </url><url>
+    <loc>https://solfeguido.github.io/</loc>
+    <lastmod>2021-09-23T18:56:24+02:00</lastmod>
+  </url><url>
+    <loc>https://solfeguido.github.io/posts/kotlinftw/</loc>
+    <lastmod>2020-03-12T19:10:24+01:00</lastmod>
+  </url><url>
+    <loc>https://solfeguido.github.io/posts/rewrite/</loc>
+    <lastmod>2020-02-05T14:10:08+01:00</lastmod>
+  </url><url>
+    <loc>https://solfeguido.github.io/posts/update_1_4/</loc>
+    <lastmod>2020-02-03T10:28:38+01:00</lastmod>
+  </url><url>
+    <loc>https://solfeguido.github.io/posts/update_1_3/</loc>
+    <lastmod>2020-02-03T10:27:16+01:00</lastmod>
+  </url><url>
+    <loc>https://solfeguido.github.io/posts/released/</loc>
+    <lastmod>2019-12-18T15:03:54+01:00</lastmod>
+  </url><url>
+    <loc>https://solfeguido.github.io/posts/solfeguido/</loc>
+    <lastmod>2019-12-16T16:49:34+01:00</lastmod>
+  </url><url>
+    <loc>https://solfeguido.github.io/categories/</loc>
+  </url><url>
+    <loc>https://solfeguido.github.io/tags/</loc>
+  </url>
+</urlset>
